@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+     <?php
+            include 'database_connect.php';
+            
+            $sql = "SELECT * FROM cars";
+            $result = $conn->query($sql);
+
+            include 'database_dispose.php';
+        ?>
+    
     <header>
         <div class="logo">
             <img src="images/logo.jpg" alt="Logo BitMarket">
