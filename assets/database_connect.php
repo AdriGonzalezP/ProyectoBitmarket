@@ -1,9 +1,9 @@
 <!-- DATABASE CONFIG -->
 <?php
     $servername = "mysql";
-    $username = "asirweb";
-    $password = "qwe_123";
-    $dbname = "webasir";
+    $username = "usuario";
+    $password = "P@ssw0rd";
+    $dbname = "ventas";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error)
