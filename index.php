@@ -11,7 +11,7 @@
      <?php
             include 'database_connect.php';
             
-            $sql = "SELECT * FROM cars";
+            $sql = "SELECT * FROM ventas";
             $result = $conn->query($sql);
 
             include 'database_dispose.php';
