@@ -1,8 +1,8 @@
 <!-- DATABASE CONFIG -->
-<?php
-    $servername = "mysql";
-    $username = "usuario";
-    $password = "P@ssw0rd";
+<<?php
+    $servername = "localhost";
+    $username = "ubuntu";
+    $password = "ubuntu";
     $dbname = "ventas";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
