@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-     <?php
-            include 'database_connect.php';
-            
+   <?php
+            ini_set('display_errors', 1);
+            error_reporting(E_ALL);
+   ?>
+
+   <?php
+            include 'assets/database_connect.php';
+
             $sql = "SELECT * FROM ventas";
             $result = $conn->query($sql);
 
-            include 'database_dispose.php';
-        ?>
-    
+            include 'assets/database_dispose.php';
+   ?>
     <header>
         <div class="logo">
             <img src="images/logo.jpg" alt="Logo BitMarket">
