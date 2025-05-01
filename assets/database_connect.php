@@ -1,5 +1,5 @@
 <!-- DATABASE CONFIG -->
-<<?php
+<?php
     $servername = "localhost";
     $username = "ubuntu";
     $password = "ubuntu";
