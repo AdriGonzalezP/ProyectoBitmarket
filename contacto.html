@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitMarket, tu tienda online</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" >
+    <link rel="stylesheet" href="css/estiloscontacto.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="Logo BitMarket">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu-principal">
+                <li>
+                    <a href="#">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                            <path d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        CATEGORÍAS
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Ordenadores</a></li>
+                        <li><a href="#">Componentes</a></li>
+                        <li><a href="#">Periféricos</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="buscador">
+            <input type="search" placeholder="Buscar productos...">
+            <span class="icono-lupa">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#747474" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+                </svg>
+            </span>
+        </div>
+        <div class="acciones-usuario">
+            <a href="login.html" class="btn-header">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                </svg>
+                Iniciar sesión
+            </a>
+            <a href="cesta.html" class="btn-header">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+                </svg>
+                Mi cesta
+            </a>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <a href="index.html">Inicio</a> &gt; Contacto
+    </nav>
+
+    <main class="columnas">
+        <section class="formulario-contacto">
+            <h1>Formulario de contacto</h1>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto">
+                </div>
+                    <label for="mensaje">Enviar Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+                </div>
+                <div style="text-align: center;">
+                <button type="submit">Enviar mensaje</button>
+                </div>
+        </section>
+
+        <aside class="empresa-contacto">
+            <h2>Datos de contacto</h2>
+                <p><strong>Dirección:</strong>Avinguda de l'Adcoat Fausto Caruana, O S N, 46500 Sagunt, Valencia</p>
+                <p><strong>Teléfono:</strong>+34 962 61 77 20</p>
+                <p><strong>Email:</strong> info@bitmarket.com</p>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.038114101744!2d-0.2493015882421145!3d39.671357200549025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd601595e84d50b7%3A0xc249890fbcbd5291!2sIES%20Camp%20de%20Morvedre!5e0!3m2!1ses!2ses!4v1746958033085!5m2!1ses!2ses" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 BitMarket. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html
