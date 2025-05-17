@@ -34,7 +34,7 @@ header {
 }
 
 
-.login {
+.columnas-login {
     max-width: 1000px;
     margin: 60px auto;
     display: flex;
@@ -43,7 +43,7 @@ header {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.login-info {
+.columna-info {
     flex: 1;
     background: #003366;
     color: #ffffff;
@@ -53,19 +53,19 @@ header {
     gap: 20px;
 }
 
-.login-info h1 {
+.columna-info h1 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.login-info li {
+.columna-info li {
     text-decoration: none;
     margin-top: 10px;
     list-style: none;
 }
 
-.login-info button {
+.columna-info button {
     background: #ff914d;
     color: #ffffff;
     padding: 10px 24px;
@@ -75,18 +75,18 @@ header {
     transition: background 0.3s;
 }
 
-.login-info button:hover {
+.columna-info button:hover {
     background: #e67c3a;
 }
 
 
-.login-formulario {
+.columna-formulario {
     flex: 1;
     background: #ffffff;
     padding: 40px;
 }
 
-.login-formulario h1 {
+.columna-formulario h1 {
     font-size: 24px;
     font-weight: 700;
     color: #003366;
@@ -94,20 +94,20 @@ header {
     margin-bottom: 25px;
 }
 
-.login-formulario form {
+.columna-formulario form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.login-formulario label {
+.columna-formulario label {
     display: block;
     margin-bottom: 6px;
     margin-top: 10px;
     font-weight: bold;
 }
 
-.login-formulario input {
+.columna-formulario input {
     width: 100%;
     padding: 12px;
     border: 1px solid #CCCCCC;
@@ -116,25 +116,19 @@ header {
     margin-top: 10px;
 }
 
-.contraseña {
-    text-align: center;
-    padding-top: 10px;
-    margin-top: 10px;
-}
 
-
-.login-formulario a {
+.columna-formulario a {
     font-size: 14px;
     color: #003366;
     text-align: center;
     text-decoration: none;
 }
 
-.login-formulario a:hover {
+.columna-formulario a:hover {
     text-decoration: underline;
 }
 
-.login-formulario button {
+.columna-formulario button {
     background: #ff914d;
     color: #ffffff;
     padding: 10px 24px;
@@ -145,6 +139,14 @@ header {
     width: 350px;
 }
 
-.login-formulario button:hover {
+.columna-formulario button:hover {
     background: #e67c3a;
 }
+
+.contraseña {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
